@@ -16,6 +16,7 @@ import {
   MdiFlask,
   MdiLightbulbOn20,
   RMixPlanet,
+  HeartIcon,
 } from '~/components/icons/menu-collection'
 import { isSupportIcon, SocialIcon } from '~/components/modules/home/SocialIcon'
 import { usePresentSubscribeModal } from '~/components/modules/subscribe'
@@ -256,6 +257,11 @@ const windsock = [
     title: '跃迁',
     icon: RMixPlanet,
     path: 'https://travel.moe/go.html',
+  },
+  {
+    title: 'LOVE',
+    icon: HeartIcon,
+    path: 'https://love.charom.love',
   },
 ]
 
