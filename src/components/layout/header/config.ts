@@ -14,6 +14,7 @@ import {
   MdiFlask,
   MdiLightbulbOn20,
   RMixPlanet,
+  HeartIcon,
 } from '~/components/icons/menu-collection'
 
 export interface IHeaderMenu {
@@ -107,6 +108,11 @@ export const headerMenuConfig: IHeaderMenu[] = [
         icon: h(RMixPlanet),
         path: 'https://travel.moe/go.html',
       },
+      {
+        title: 'LOVE',
+        icon: HeartIcon,
+        path: 'https://love.charom.love',
+  },
     ],
   },
 ]
