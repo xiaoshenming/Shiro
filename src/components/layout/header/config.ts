@@ -110,7 +110,7 @@ export const headerMenuConfig: IHeaderMenu[] = [
       },
       {
         title: 'LOVE',
-        icon: HeartIcon,
+        icon: h(HeartIcon),
         path: 'https://love.charom.love',
   },
     ],
