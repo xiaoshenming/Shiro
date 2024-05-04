@@ -15,6 +15,10 @@ const baseConfig = {
   closeButton: false,
 } satisfies ToastOptions
 
+interface CustomToastOptions {
+  iconElement?: JSX.Element
+  onClick?: () => void
+}
 interface ToastCustom {
   (
     message: string,
@@ -23,13 +27,6 @@ interface ToastCustom {
       iconElement?: JSX.Element
     },
   ): Id
-}
-
-interface CustomToastOptions {
-  iconElement?: JSX.Element
-  onClick?: () => void
-}
-interface ToastCustom {
   success(message: string, options?: ToastOptions & CustomToastOptions): Id
   info(message: string, options?: ToastOptions & CustomToastOptions): Id
   warn(message: string, options?: ToastOptions & CustomToastOptions): Id
